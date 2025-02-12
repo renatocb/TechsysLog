@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>    
+    <ProjectReference Include="..\TechsysLog.Domain\TechsysLog.Domain.csproj" />
+    <ProjectReference Include="..\TechsysLog.Infrastructure\TechsysLog.Infrastructure.csproj" />
+  </ItemGroup>  
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />        
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.1" />
+    <None Include="DTOs\UsuarioDto.cs" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
